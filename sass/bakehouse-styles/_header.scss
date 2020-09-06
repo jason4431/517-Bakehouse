@@ -1,0 +1,144 @@
+$animate: all 0.2s ease-in-out;
+
+.icons {
+    margin-top:15px;
+}
+
+.icons .shopping-cart-icon {
+    margin-right:8px;
+}
+
+.icons .location-icon {
+    margin-top:15px;
+}
+
+.site-header a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header-clone {
+	display: none;
+}
+
+.front-page-menu {
+	position: sticky;
+    top: 110px;
+	z-index: 1;
+	padding-bottom: 0;
+	border: 0.5px dotted black;
+	border-radius: 10%;
+	background-color: rgb(255, 245, 246);
+}
+
+.site-header {
+    color: $brown;
+    background-color: $black;
+    //background: linear-gradient(0deg, rgba(162,135,92,1) 0%, rgba(86,80,73,1) 100%);
+    //background: linear-gradient(90deg, rgba(183,177,167,1) 0%, rgba(179,150,113,1) 56%, rgba(87,79,62,1) 100%);
+    //background: linear-gradient(0deg, rgba(203,136,26,1) 0%, rgba(29,28,27,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    height: 75px;
+    border: 1px solid $black;
+    width: 100%;
+}
+
+.site-title {
+    text-align: center;
+    font-size: 1em;
+}
+
+.site-title a:visited {
+    color: black;
+}
+
+.custom-logo {
+    width: 100px;
+    padding-top: 3px;
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-navigation li a {
+    color: white;
+    font-family: 'Bellota', cursive;
+}
+
+.site-navigation .menu-toggle button {
+    width: 100%;
+    right: 3px;
+}
+
+.main-navigation a:hover {
+    color: $grey;
+    display: flex;
+    align-items: center;
+}
+
+a:visited {
+    color: $grey;
+}
+
+.site-title {
+    display: none;
+}
+
+.menu-item {
+    
+    background-image: linear-gradient(120deg, $dark-grey 0%, $grey 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    border-radius: 20%;
+    transition: background-size 0.2s ease-in;
+    bottom: -10px;
+    &:hover {
+      background-size: 100% 98%;
+    }
+    margin: 10px 5px 0px 5px;
+    padding: 3px;
+  }
+
+.site-description {
+    display: none;
+}
+
+// .header-clone {
+//     height: 75px;
+//     display: block;
+//     width: 100%;
+// }
+
+.nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-navigation {
+    width: 400px;
+}
+
+@media only screen and (max-width: 676px) {
+    .menu-item {
+        background-image: none;
+        background-repeat: initial;
+        border-radius: 1%;
+        bottom: 0px;
+        &:hover {
+          background-size: 100% 98%;
+        }
+        margin: 10px 5px 0px 5px;
+        padding: 3px;
+      }
+    .mob-menu-header-holder {
+        background-color: black;
+        color: white;
+    }
+}

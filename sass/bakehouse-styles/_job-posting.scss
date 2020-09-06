@@ -1,0 +1,84 @@
+.article_job_post{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.page-header{
+    h1{
+        text-align: center;
+        font-size: 2em;
+        color:$gold;
+    }
+}
+
+.page-job-title {
+    margin-top: 150px;
+}
+.job-posting{
+    h2{
+        text-align: center;
+        color:$gold;
+        a{
+            text-decoration: none;
+
+            &:hover{
+                color:$gold;
+                text-decoration: underline; 
+              }
+        }
+          
+        
+     
+    }
+    .entry-content{
+       display: block;
+       ul{
+           padding: 0;
+           list-style-type: circle;
+       }
+    }
+}
+
+.widget-area{
+    margin: 1em;
+    ul{
+        padding: 0;
+        list-style-type: circle;
+
+    }
+    a{
+        text-decoration: none;
+       
+    }
+}
+@media (min-width: 700px)
+
+{
+    .page-header{
+        h1{
+            font-size: 2.5em;
+        }
+    }
+    .article_job_post{
+
+        padding: 2em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3em;
+    }
+}
+
+.about-banner h1 {
+	margin-bottom: 0;
+	text-align: center;
+	left: 50%;
+	
+}
+
+.job-banner h1 {
+	top: 40%;
+}
+
+
+.wpforms-container form {
+    margin: 10px;
+}

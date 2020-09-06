@@ -1,0 +1,73 @@
+.google-map {
+    padding: 0 20px;
+    width: 100%;
+
+    .acf-map {
+        width: 100%;
+        max-height: 300px;
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 0 20px;
+        
+    }
+  
+}
+
+body .wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium,
+body div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
+max-width: 100%;
+}
+
+
+.location-title {
+    padding-left: 20px;
+}
+
+.contact-info {
+    padding-left: 20px;
+}
+
+.entry-content {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .entry-header {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+
+
+    .location-title {
+        max-width: 800px;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    
+}
+
+@media only screen and (min-width: 850px) {
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 800px;
+        margin: 0 auto;
+        padding-left: 0;
+    
+    }
+
+    .contact-page-location {
+        width: 350px
+    }
+}
+
+@media only screen and (min-width: $desktopMedium) {
+
+    .acf-map {
+        margin-top: 50px;
+    }
+} 

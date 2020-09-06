@@ -1,0 +1,67 @@
+.about section {
+    
+    h2 {
+        text-align: center;
+    }
+}
+.about-section-content{
+    max-width: 800px;
+    margin: 0 auto;
+     padding: 0 20px;
+}
+.vision-content{
+    p{
+        line-height: 2em;
+    }
+
+}
+.about-banner{
+    display: block;
+    position: relative;
+    height: 500px;
+    img{
+        position: absolute;
+        width: 100%;
+        height: inherit;
+        object-fit: cover;
+        z-index: 2;
+    }
+    h1{
+        position: absolute;
+        z-index: 3;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow:  -1px 3px 5px rgb(240, 87, 36);
+        font-size: 2rem;
+        @media(min-width: $phoneLandscape){
+            font-size: 3rem;
+        }
+        @media(min-width: $desktopMedium){
+            font-size: 5rem;
+        }
+      
+    }
+}
+
+
+@media only screen and (min-width: $tabletPortrait) {
+
+    .baker-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .baker {
+        max-width: 350px;
+    }
+
+
+
+
+
+  }

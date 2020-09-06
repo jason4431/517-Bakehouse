@@ -1,0 +1,40 @@
+
+.acf-map {
+    width: 100%;
+    max-width: 500px;
+    max-height: 300px;
+    margin: 0 auto;
+    
+}
+body .wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium,
+body div.wpforms-container-full .wpforms-form input.wpforms-field-medium {
+max-width: 100%;
+}
+
+.post-80 {
+    // padding: 0 20px;
+    .entry-title {
+        text-align: center;
+    }
+    .wp-forms-submit-container {
+        text-align: center;
+    }
+}
+
+.location-title {
+    padding-left: 20px;
+}
+
+.contact-info {
+    padding-left: 20px;
+}
+
+.entry-content {
+      padding: 0 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.catering-banner {
+    height: 50px;
+}

@@ -1,0 +1,13 @@
+// Move this to another sass file for Google Map
+
+.acf-map {
+    width: 550px;
+    height: 300px;
+    border: #ccc solid 1px;
+    margin: 20px 0;
+}
+
+// Fixes potential theme css conflict.
+.acf-map img {
+   max-width: inherit !important;
+}

@@ -1,0 +1,46 @@
+html {
+	scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+}
+
+p, a {
+    font-family: 'Crimson Text', serif;
+}
+
+h1, h2, h3  {
+    font-family: 'Bellota', cursive;
+}
+
+body {
+	background-color: #eeeeeef3;
+}
+
+.page-numbers {
+	display: none;
+}
+
+.woocommerce-breadcrumb {
+	display: none;
+}
+
+a:visited {
+	color: black;
+}
+
+span::before {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap; 
+	flex: 1;
+}
+
+.page-numbers a {
+	margin-left: 15px;
+}

@@ -1,0 +1,28 @@
+.woocommerce-checkout{
+  
+    font-size: 1.1em;
+  
+    .woocommerce-checkout-payment ul label{
+        max-width: 370px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        img{
+            max-width:60px ;
+        }
+    }
+
+    button{
+        background-color: none;
+        padding: 1em;
+        border: 2px solid $hover;
+        color: $hover;
+        font-size: 1em;
+        
+        &:hover{
+            background-color: $gold;
+            color: white;
+        }
+
+    }
+}

@@ -1,0 +1,14 @@
+p{
+    text-align: justify;
+    line-height: 3em;
+    font-size: 1.1em;
+    @media(min-width: 660px){
+        font-size: 1.2em;
+    }
+    @media(min-width: 870px){
+        font-size: 1.4em;
+    }
+}
+h1{
+    font-size: 2.4rem;
+}
